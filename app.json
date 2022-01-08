@@ -1,0 +1,68 @@
+{
+    "name": "TELEGRAM MUSIC PLAYER",
+    "description": "A SIMPLE VOICECHAT MUSIC PLAYER,MADE WITH LOVE BY ©LEGEND-ANKIT™",
+    "repository": "https://github.com/LEGEND-ANKIT/TELEGRAM-MUSIC-PLAYER",
+    "logo": "https://telegra.ph/file/b002d63974bd05ea7a336.jpg",
+    "stack": "container",
+    "keywords": [
+      "telegram",
+      "voicechat",
+      "userbot",
+      "music",
+      "player",
+      "python",
+      "pyrogram",
+      "py-tgcalls",
+      "musicplayer"
+    ],
+    "env": {
+      "API_ID": {
+        "description": "Telegram app id, get it from https://my.telegram.org/apps",
+        "value": "14627413",
+        "required": true
+      },
+      "API_HASH": {
+        "description": "Telegram app hash, get it from https://my.telegram.org/apps",
+        "value": "4d5ff4db45a7e931930d0c923a7fb295",
+        "required": true
+      },
+      "SESSION": {
+        "description": "Pyrogram session string, get it from https://replit.com/@ANKIT-OS",
+        "required": true
+      },
+      "SUDOERS": {
+        "description": "ID of sudo users who have special access (separate multiple ids with space)",
+        "value": "5035281405 2127221861",
+        "required": true
+      },
+      "PREFIX": {
+        "description": "Bot commad prefix or handler (separate multiple prefix with space)",
+        "value": "!",
+        "required": true
+      },
+      "LANGUAGE": {
+        "description": "An available bot language (read the README.md for more info)",
+        "value": "en",
+        "required": true
+      },
+      "QUALITY": {
+        "description": "An available stream quality (read the README.md for more info)",
+        "value": "high",
+        "required": true
+      }
+    },
+    "formation": {
+      "worker": {
+        "quantity": 1,
+        "size": "free"
+      }
+    },
+    "buildpacks": [
+      {
+        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
+      },
+      {
+        "url": "heroku/python"
+      }
+    ]
+  }
