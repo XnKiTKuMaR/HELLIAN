@@ -10,4 +10,4 @@ COPY . /ankit/
 RUN pip3 install --upgrade pip
 RUN pip3 install -U -r requirements.txt
 
-CMD bash startup.sh
+CMD python3 ankit.py
