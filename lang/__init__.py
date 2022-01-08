@@ -1,6 +1,6 @@
 """
 Music Player, Telegram Voice Chat Bot
-Copyright (c) 2021  ©LEGEND-ANKIT™ <https://github.com/LEGEND-ANKIT>
+Copyright (c) 2022  ©LEGEND-ANKIT™ <https://github.com/LEGEND-ANKIT>
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
