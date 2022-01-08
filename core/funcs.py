@@ -204,7 +204,7 @@ async def start_stream(song: Song, lang):
     chat = song.request_msg.chat
     if ankit.get(chat.id) is not None:
         try:
-            await safone[chat.id].delete()
+            await ankit[chat.id].delete()
         except BaseException:
             pass
     infomsg = await song.request_msg.reply_text(lang["downloading"])
