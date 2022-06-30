@@ -1,8 +1,8 @@
 {
     "name": "TELEGRAM MUSIC PLAYER",
-    "description": "A SIMPLE VOICECHAT MUSIC PLAYER,MADE WITH LOVE BY ©LEGEND-ANKIT™",
-    "repository": "https://github.com/LEGEND-ANKIT/TELEGRAM-MUSIC-PLAYER",
-    "logo": "https://telegra.ph/file/b002d63974bd05ea7a336.jpg",
+    "description": "A SIMPLE VOICECHAT MUSIC PLAYER,MADE WITH LOVE BY (c)XnKiT™",
+    "repository": "https://github.com/XNKITKUMAR/HELLIAN",
+    "logo": "https://te.legra.ph/file/a7c82fa1cb4c41097dadd.jpg",
     "stack": "container",
     "keywords": [
       "telegram",
@@ -37,7 +37,7 @@
       },
       "PREFIX": {
         "description": "Bot commad prefix or handler (separate multiple prefix with space)",
-        "value": "!",
+        "value": "/ ! , ~ . ^",
         "required": true
       },
       "LANGUAGE": {
