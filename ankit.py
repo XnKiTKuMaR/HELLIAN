@@ -1,21 +1,3 @@
-"""
-Music Player, Telegram Voice Chat Bot
-Copyright (c) 2022  ©LEGEND-ANKIT™ <https://github.com/LEGEND-ANKIT>
-
-This program is free software: you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation, either version 3 of the License, or
-(at your option) any later version.
-
-This program is distributed in the hope that it will be useful,
-but WITHOUT ANY WARRANTY; without even the implied warranty of
-MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-GNU Affero General Public License for more details.
-
-You should have received a copy of the GNU General Public License
-along with this program.  If not, see <https://www.gnu.org/licenses/>
-"""
-
 import os
 import json
 from config import config
@@ -37,9 +19,9 @@ from core import (
 
 
 REPO = """
-🔰 **Music Player**
-- Repo: [GitHub](https://github.com/LEGEND-ANKIT/TELEGRAM-MUSIC-PLAYER)
-- Legend's Say's To [©LEGEND-ANKIT™](https://github.com/LEGEND-ANKIT)
+🔰 **𝑀𝓊𝓈𝒾𝒸 𝒫𝓁𝒶𝓎𝑒𝓇**
+- 𝑅𝑒𝓅𝑜: 𝒞𝑜𝓃𝓉𝒶𝒸𝓉 [𝔸𝕟𝕂𝕚𝕋](https://t.me/XnKiTKuMaR) 𝐹𝑜𝓇 𝒯𝒽𝑒 𝑅𝑒𝓅𝑜
+- 𝐿𝑒𝑔𝑒𝓃𝒹'𝓈 𝒮𝒶𝓎'𝓈 𝒯𝑜 [(c)𝔸𝕟𝕂𝕚𝕋™](xnkitkumar.github.io/About)
 """
 
 
@@ -56,7 +38,7 @@ async def repo(_, message: Message):
 )
 @handle_error
 async def ping(_, message: Message):
-    await message.reply_text(f"🔰 **Pong!**\n`{await pytgcalls.ping} ms`")
+    await message.reply_text(f"🔰 **𝓟𝓸𝓷𝓰...!**\n`{await pytgcalls.ping} ms`")
 
 
 @app.on_message(
